@@ -1,0 +1,73 @@
+.banner {
+  position: relative;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  background-image: url("/images/Vector\ 1.svg");
+
+  width: 1050px;
+  height: 1200px;
+  top: -260px;
+  margin-left: calc((100vw - 1050px) / 2);
+  z-index: -1;
+}
+
+.banner__header {
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-right: 70px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.banner__paragraph {
+  width: 810px;
+  padding-right: 70px;
+  font-family: Helvetica;
+  color: white;
+  margin: 0 auto;
+  margin-top: 24px;
+  letter-spacing: 0.3px;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+}
+.banner__container {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  padding-right: 70px;
+}
+.banner__button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 67px;
+  padding: 16px 0;
+  color: white;
+  width: 237px;
+  text-align: center;
+  margin-right: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.red {
+  background: linear-gradient(339.31deg, #b40100 0.23%, #fc2801 93.89%);
+  border: none;
+}
+.banner__picture {
+  width: 1099px;
+  margin: 0 auto;
+  margin-top: 37px;
+  padding-right: 50px;
+}

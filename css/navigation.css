@@ -1,0 +1,42 @@
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__logo {
+  width: 100px;
+  margin: 24px 32px;
+}
+
+.navigation__burger {
+  margin: 24px 32px;
+}
+
+.line1 {
+  margin: 11px 7px;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.line2 {
+  margin: 11px 7px;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.line3 {
+  margin: 11px 7px;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+}
