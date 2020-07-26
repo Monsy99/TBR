@@ -9,7 +9,7 @@
 .banner::before {
   content: "";
   position: absolute;
-  background-image: url("/images/Vector\ 1.svg");
+  background-image: url("./images/Vector.svg");
 
   width: 1050px;
   height: 1200px;
