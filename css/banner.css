@@ -10,7 +10,6 @@
   content: "";
   position: absolute;
   background-image: url("../images/Vector.svg");
-
   width: 1050px;
   height: 1200px;
   top: -260px;
@@ -50,7 +49,7 @@
   padding-right: 70px;
 }
 .banner__button {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   border: 2px solid white;
   border-radius: 67px;
   padding: 16px 0;
@@ -62,8 +61,19 @@
   font-size: 16px;
 }
 .red {
+  padding-top: 18px;
   background: linear-gradient(339.31deg, #b40100 0.23%, #fc2801 93.89%);
   border: none;
+  box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.4);
+  transition: all 0.3s ease-out;
+}
+.banner__button:hover {
+  cursor: pointer;
+  box-shadow: 0px 23px 30px -12px rgba(0, 0, 0, 0.4);
+}
+.red:hover {
+  cursor: pointer;
+  box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.8);
 }
 .banner__picture {
   width: 1099px;
@@ -71,3 +81,93 @@
   margin-top: 37px;
   padding-right: 50px;
 }
+
+@media (max-width: 1240px) {
+  .banner::before {
+    background-image: url("../images/Vector_smaller.svg");
+    margin-left: calc((100vw - 730px) / 2);
+    width: 730px;
+    height: 790px;
+    top: -60px;
+  }
+  .banner__header {
+    padding-right: 50px;
+    font-size: 52px;
+    margin-top: 120px;
+  }
+  .banner__paragraph {
+    width: 600px;
+    padding-right: 50px;
+    margin-top: 24px;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .banner__button {
+    border-radius: 67px;
+    padding: 14px 0;
+    width: 180px;
+    margin-right: 24px;
+    font-size: 14px;
+  }
+  .red {
+    padding-top: 16px;
+    box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.4);
+    transition: all 0.3s ease-out;
+  }
+  .banner__picture {
+    width: 800px;
+    margin-top: 37px;
+    padding-right: 60px;
+  }
+  .banner__container {
+    margin-top: 25px;
+    padding-right: 60px;
+  }
+}
+/*
+@media (max-width: 930px) {
+  .banner::before {
+    background-image: url("../images/Vector_mobile.svg");
+    margin-left: calc((100vw - 530px) / 2);
+    width: 530px;
+    height: 590px;
+    top: -50px;
+  }
+  .banner__header {
+    margin-top: 85px;
+    padding-right: 50px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .banner__paragraph {
+    width: 460px;
+    padding-right: 40px;
+    margin-top: 18px;
+    letter-spacing: 0.2px;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .banner__button {
+    border-radius: 67px;
+    padding: 12px 0;
+    width: 140px;
+    margin-right: 24px;
+    font-size: 11px;
+  }
+  .red {
+    padding-top: 14px;
+    box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.4);
+    transition: all 0.3s ease-out;
+  }
+  .banner__picture {
+    width: 500px;
+    margin-top: 25px;
+    padding-right: 40px;
+  }
+  .banner__container {
+    margin-top: 25px;
+    padding-right: 60px;
+  }
+}
+*/
