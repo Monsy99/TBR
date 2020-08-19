@@ -55,3 +55,10 @@
   border-radius: 2px;
   transition: all 0.35s ease-out;
 }
+@media (max-width: 730px) {
+  .navigation__logo {
+    width: 80px;
+    margin: 24px 32px;
+    cursor: pointer;
+  }
+}

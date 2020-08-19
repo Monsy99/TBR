@@ -5,7 +5,10 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 @font-face {
   font-family: Helvetica;
   src: url("../fonts/Helvetica/HelveticaNeueLTPro-Md.otf");

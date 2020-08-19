@@ -42,6 +42,7 @@
   line-height: 29px;
   text-align: center;
 }
+
 .banner__container {
   margin: 0 auto;
   margin-top: 40px;
@@ -125,20 +126,20 @@
     padding-right: 60px;
   }
 }
-/*
-@media (max-width: 930px) {
+
+@media (max-width: 730px) {
   .banner::before {
     background-image: url("../images/Vector_mobile.svg");
     margin-left: calc((100vw - 530px) / 2);
     width: 530px;
-    height: 590px;
+    height: 620px;
     top: -50px;
   }
   .banner__header {
     margin-top: 85px;
     padding-right: 50px;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 23px;
+    line-height: 25px;
   }
   .banner__paragraph {
     width: 460px;
@@ -169,5 +170,33 @@
     margin-top: 25px;
     padding-right: 60px;
   }
+  .mobile__disappear {
+    display: none;
+  }
 }
-*/
+@media (max-width: 600px) {
+  .banner::before {
+    background-image: url("../images/Vector_mobile.svg");
+    margin-left: calc((100vw - 500px) / 2);
+    width: 530px;
+    height: 620px;
+    top: -50px;
+  }
+  .banner__header {
+    margin-top: 65px;
+    padding-right: 50px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .banner__paragraph {
+    width: 95vw;
+
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .banner__picture {
+    width: 400px;
+    margin-top: 25px;
+    padding-right: 0px;
+  }
+}
