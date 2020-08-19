@@ -13,6 +13,7 @@
   width: 1050px;
   height: 1200px;
   top: -260px;
+  transform: rotate(-5deg);
   margin-left: calc((100vw - 1050px) / 2);
   z-index: -1;
 }
@@ -113,8 +114,6 @@
   }
   .red {
     padding-top: 16px;
-    box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.4);
-    transition: all 0.3s ease-out;
   }
   .banner__picture {
     width: 800px;
@@ -158,8 +157,6 @@
   }
   .red {
     padding-top: 14px;
-    box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.4);
-    transition: all 0.3s ease-out;
   }
   .banner__picture {
     width: 500px;
@@ -170,33 +167,57 @@
     margin-top: 25px;
     padding-right: 60px;
   }
-  .mobile__disappear {
-    display: none;
-  }
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .banner::before {
-    background-image: url("../images/Vector_mobile.svg");
-    margin-left: calc((100vw - 500px) / 2);
-    width: 530px;
-    height: 620px;
-    top: -50px;
+    background-image: url("../images/Vector_smaller.svg");
+    margin-left: calc((100vw - 580px) / 2);
+    width: 730px;
+    height: 790px;
+    top: -100px;
   }
   .banner__header {
-    margin-top: 65px;
-    padding-right: 50px;
-    font-size: 20px;
-    line-height: 25px;
+    margin-top: 40px;
+    padding-right: 0px;
+    font-size: 24px;
+    font-weight: 750;
+    line-height: 29px;
   }
   .banner__paragraph {
-    width: 95vw;
-
-    font-size: 12px;
-    line-height: 18px;
+    width: 96vw;
+    padding-right: 0px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .banner__picture {
     width: 400px;
     margin-top: 25px;
     padding-right: 0px;
+  }
+  .banner__container {
+    margin-top: 25px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  .banner__picture {
+    width: 770px;
+    margin-left: -30px;
+    margin-top: 17px;
+    padding-right: 40px;
+  }
+  .banner__button {
+    border-radius: 67px;
+    padding: 12px 0;
+    width: 270px;
+    margin-bottom: 17px;
+    margin-right: 0;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .red {
+    padding-top: 14px;
+  }
+  .mobile__disappear {
+    display: none;
   }
 }
