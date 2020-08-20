@@ -168,7 +168,7 @@
     padding-right: 60px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 530px) {
   .banner::before {
     background-image: url("../images/Vector_smaller.svg");
     margin-left: calc((100vw - 580px) / 2);
