@@ -3,8 +3,6 @@
   top: 0px;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 .banner::before {
@@ -83,6 +81,7 @@
   margin: 0 auto;
   margin-top: 37px;
   padding-right: 50px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1240px) {
@@ -102,7 +101,7 @@
     width: 600px;
     padding-right: 50px;
     margin-top: 24px;
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
     font-size: 17px;
     line-height: 25px;
   }
@@ -185,7 +184,7 @@
     line-height: 29px;
   }
   .banner__paragraph {
-    width: 96vw;
+    width: 85vw;
     padding-right: 0px;
     font-size: 18px;
     line-height: 22px;
