@@ -4,7 +4,7 @@ body {
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("./images/vector1.png");
+  background-image: url("/images/vector1.png");
   width: 1300px;
   height: 1350px;
   top: 0;
@@ -47,6 +47,7 @@ body {
 }
 .content__tile-wrapper {
   display: flex;
+  margin: 0 auto;
 }
 .content__tile {
   background-color: white;
