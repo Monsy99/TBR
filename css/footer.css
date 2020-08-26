@@ -10,7 +10,7 @@
   margin-top: 40px;
 }
 .footer-fixed {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   bottom: 0;
 }
