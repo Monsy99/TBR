@@ -11,7 +11,7 @@
   position: absolute;
   background-image: url("../images/Vector.svg");
   width: 1050px;
-  height: 1200px;
+  height: 1120px;
   top: -260px;
   transform: rotate(-5deg);
   margin-left: calc((100vw - 1050px) / 2);
