@@ -1,0 +1,48 @@
+.content::before {
+  content: "";
+  position: absolute;
+  background-image: url("/ryzyko/images/vector1.png");
+  width: 1300px;
+  height: 1350px;
+  top: 0;
+  z-index: -1;
+}
+.content {
+}
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 850px;
+  margin-left: 155px;
+}
+.content__header {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.content__group {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.content__paragraph {
+  width: 660px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 1px;
+}
+.content__vector {
+  width: 603px;
+  height: 584px;
+}
+.content__tile-wrapper {
+}
+.content__tile {
+}

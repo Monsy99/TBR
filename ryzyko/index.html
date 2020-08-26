@@ -3,17 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="/ryzyko/css/content.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
     <nav class="navigation">
-      <img class="navigation__logo" src="./images/logo.png" alt="logo" />
-      <div class="navigation__burger burger--open">
+      <img class="navigation__logo" src="../images/logo.png" alt="logo" />
+      <div class="navigation__burger">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
     </nav>
-    <main class="content"></main>
+    <section class="mobileMenu">
+      <ul class="mobileMenu__list">
+        <li class="mobileMenu__item">
+          <a class="mobileMenu__link" href="../home.html">Home</a>
+        </li>
+        <li class="mobileMenu__item">
+          <a class="mobileMenu__link mobileSelected" href="#">Ryzyko</a>
+        </li>
+      </ul>
+    </section>
+    <main class="content">
+      <div class="content__wrapper">
+        <h1 class="content__header">
+          Ryzyko w transporcie - fikcja czy rzeczywistoś&nbsp;ć&nbsp;?
+        </h1>
+        <span class="content__group">
+          <p class="content__paragraph">
+            Ryzyko jest nieodłącznym elementem każ&nbsp;dej działalnoś&nbsp;ci
+            gospodarczej. Ź&nbsp;ró&nbsp;dłem ryzyka jest
+            nieprzewidywalnoś&nbsp;ć&nbsp; i niepewnoś&nbsp;ć&nbsp; szeroko
+            rozumianego otoczenia, w któ&nbsp;rym funkcjonujemy. Nie
+            jesteś&nbsp;my w stanie np. przewidzieć&nbsp; konsekwencji
+            działań&nbsp; naszych partneró&nbsp;w biznesowych,
+            podwykonawcó&nbsp;w czy nawet konkurencji. A to sprawia, ż&nbsp;e
+            realizacja naszych celó&nbsp;w biznesowych zawsze będzie niepewna i
+            obarczona ryzykiem niepowodzenia. Transport obarczony jest
+            szczegó&nbsp;lnym rodzajem ryzyka, u któ&nbsp;rego podstaw
+            leż&nbsp;y specyfika tej branż&nbsp;y i regulacji prawnych. Szkody
+            na ładunkach w transporcie są zjawiskiem częstym, ż&nbsp;eby nie
+            rzecz czymś&nbsp; typowym i naturalnym. I to niezależ&nbsp;nie od
+            tego, czy mó&nbsp;wimy o transporcie drogowym, lotniczym czy
+            morskim. Dlatego też&nbsp; umiejętnoś&nbsp;ć&nbsp; minimalizacji
+            tego ryzyka, jest nie lada wyzwaniem.
+          </p>
+          <img
+            class="content__vector"
+            src="/ryzyko/images/side_vector.svg"
+            alt=""
+          />
+        </span>
+
+        <div class="content__tile-wrapper">
+          <div class="content__tile">
+            <p>
+              Ubezpieczenie Cargo
+            </p>
+          </div>
+          <div class="content__tile">
+            <p>
+              Ubezpieczenie OC spedytora
+            </p>
+          </div>
+          <div class="content__tile">
+            <p>
+              Ubezpieczenie OC przewoźnika
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
+  <script src="../js/app.js"></script>
 </html>

@@ -6,25 +6,24 @@
 }
 
 .navigation__logo {
-  width: 100px;
-  margin: 24px 32px;
+  width: 110px;
+  margin: 30px 32px 24px;
   cursor: pointer;
 }
 
 .navigation__burger {
   margin: 24px 32px;
   cursor: pointer;
-}
-.burger--open {
+  z-index: 3;
 }
 
-.burger--open:hover .line1 {
+.burger--open .line1 {
   transform: rotate(-45deg) translate(-5px, 5px);
 }
-.burger--open:hover .line2 {
+.burger--open .line2 {
   display: none;
 }
-.burger--open:hover .line3 {
+.burger--open .line3 {
   transform: rotate(45deg) translate(-5px, -5px);
 }
 .line1 {
