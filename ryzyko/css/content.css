@@ -4,7 +4,7 @@ body {
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/vector1.png");
+  background-image: url("../images/Vector_1.svg");
   width: 1300px;
   height: 1350px;
   top: 0;
@@ -16,17 +16,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 850px;
   margin-left: 155px;
 }
 .content__header {
+  width: 850px;
   color: white;
   font-family: Helvetica, sans-serif;
   font-size: 64px;
   line-height: 77px;
   letter-spacing: 2px;
   margin-top: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 34px;
 }
 .content__group {
   display: flex;
@@ -47,7 +47,8 @@ body {
 }
 .content__tile-wrapper {
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 .content__tile {
   background-color: white;
