@@ -2,40 +2,50 @@
   z-index: 1;
   display: none;
   position: fixed;
+  right: 0;
   top: 0;
-  width: 100vw;
+  min-width: 230px;
+  width: 20vw;
   height: 100vh;
   background-color: white;
+  box-shadow: -5px -5px 20px rgb(77, 77, 77);
+  border-radius: 40px 0 0 0;
 }
 .mobileMenu--open {
   display: unset;
 }
 .mobileMenu__list {
+  padding-top: 15vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   list-style-type: none;
 }
 
 .mobileMenu__item {
-  padding: 15px 50px;
-  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+  transition: transform 0.2s ease-in;
 }
 
 .mobileMenu__link {
-  padding: 15px 50px;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   color: black;
   text-decoration: none;
 }
 
-.mobileMenu__link:hover {
-  color: crimson;
+.mobileMenu__item:hover {
+  transform: scale(1.08);
+  padding-bottom: 4px;
+  border-bottom: 6px solid #049ded;
 }
 
 .menuOpen {
-  display: unset;
   background-color: black;
   position: fixed;
   width: 100vw;
@@ -44,5 +54,6 @@
 }
 
 .mobileSelected {
-  color: crimson;
+  padding-bottom: 4px;
+  border-bottom: 6px solid #049ded;
 }
