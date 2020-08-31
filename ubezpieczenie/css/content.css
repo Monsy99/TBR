@@ -1,12 +1,13 @@
 body {
   overflow-y: unset;
+  overflow-x: hidden;
 }
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/vector_1.svg");
-  width: 1300px;
-  height: 1350px;
+  background-image: url("../images/vector_1-1700.svg");
+  width: 1500px;
+  height: 1500px;
   top: 0;
   z-index: -1;
 }
@@ -16,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 155px;
+  margin-left: 200px;
 }
 .content__header {
   width: 850px;
@@ -25,7 +26,7 @@ body {
   font-size: 64px;
   line-height: 77px;
   letter-spacing: 2px;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 24px;
 }
 .content__group {
@@ -44,6 +45,7 @@ body {
 .content__vector {
   width: 603px;
   height: 584px;
+  margin-left: 60px;
 }
 
 .content__tile {
@@ -56,6 +58,7 @@ body {
 }
 .content__tile-paragraph {
   margin: 44px 44px 0 44px;
+  padding-top: 40px;
   font-size: 24px;
   line-height: 29px;
   font-family: Helvetica, sans-serif;
@@ -80,3 +83,19 @@ body {
   box-shadow: 0px 23px 30px -12px rgba(180, 1, 0, 0.8);
   cursor: pointer;
 }
+
+@media (max-width: 1450px) {
+  .content::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/Vector_1.svg");
+    width: 1350px;
+    height: 1300px;
+  }
+  .content__wrapper {
+    margin-left: 150px;
+  }
+  .content__vector {
+    margin-left: 0px;
+  }
+} ;

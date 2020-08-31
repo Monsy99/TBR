@@ -1,12 +1,13 @@
 body {
   overflow-y: unset;
+  overflow-x: hidden;
 }
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/Vector_1.svg");
-  width: 1300px;
-  height: 1350px;
+  background-image: url("../images/Vector_1-1700.svg");
+  width: 1400px;
+  height: 1481px;
   top: 0;
   z-index: -1;
 }
@@ -16,7 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 155px;
+  margin-top: 50px;
+  margin-left: 200px;
 }
 .content__header {
   width: 850px;
@@ -44,6 +46,7 @@ body {
 .content__vector {
   width: 603px;
   height: 584px;
+  margin-left: 60px;
 }
 .content__tile-wrapper {
   display: flex;
@@ -69,3 +72,19 @@ body {
 .content__tile-img {
   margin: -20px 0 -20px;
 }
+
+@media (max-width: 1450px) {
+  .content::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/Vector_1.svg");
+    width: 1350px;
+    height: 1300px;
+  }
+  .content__wrapper {
+    margin-left: 150px;
+  }
+  .content__vector {
+    margin-left: 0px;
+  }
+} ;
