@@ -13,6 +13,7 @@
   margin: 32px;
 }
 .contact__input {
+  font-family: Helvetica, sans-serif;
   padding: 12px;
   letter-spacing: 1px;
   width: 500px;
