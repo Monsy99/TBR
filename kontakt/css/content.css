@@ -94,7 +94,7 @@ body {
   .content::before {
     content: "";
     position: absolute;
-    background-image: url("../images/Vector_1.svg");
+    background-image: url("../images/vector_1.svg");
     width: 1350px;
     height: 980px;
   }
