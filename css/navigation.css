@@ -54,10 +54,11 @@
   border-radius: 3px;
   transition: all 0.35s ease-out;
 }
-@media (max-width: 730px) {
+@media (max-width: 767px) {
+  .navigation__burger {
+    margin: 24px 18px;
+  }
   .navigation__logo {
-    width: 80px;
-    margin: 24px 32px;
-    cursor: pointer;
+    margin: 30px 18px 30px;
   }
 }
