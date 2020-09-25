@@ -1,3 +1,8 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
 .content::before {
   content: "";
   position: absolute;
@@ -90,13 +95,6 @@
 }
 
 @media (max-width: 1240px) {
-  body {
-    overflow-x: hidden;
-  }
-  .content {
-    overflow: hidden;
-  }
-
   .content__tile-wrapper {
     flex-wrap: wrap;
   }
