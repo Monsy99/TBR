@@ -125,6 +125,7 @@
     width: 800px;
     margin-top: 37px;
     padding-right: 60px;
+    padding-bottom: 50px;
   }
   .banner__container {
     margin-top: 25px;
@@ -148,11 +149,13 @@
   }
   .banner__header {
     font-size: 42px;
+    line-height: 52px;
     margin-top: 110px;
     width: 90%;
     padding: 0;
   }
   .banner__paragraph {
+    line-height: 21px;
     padding: 0;
     width: 90%;
   }
