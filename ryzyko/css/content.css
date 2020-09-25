@@ -2,7 +2,10 @@
   position: relative;
   width: 100vw;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
+
 .content::before {
   content: "";
   position: absolute;
@@ -83,6 +86,7 @@
     content: "";
     position: absolute;
     background-image: url("../images/Vector_1.svg");
+    top: -5px;
     width: 1350px;
     height: 1370px;
   }

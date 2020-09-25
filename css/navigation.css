@@ -56,9 +56,10 @@
 }
 @media (max-width: 767px) {
   .navigation__burger {
-    margin: 24px 18px;
+    margin: 24px 24px;
   }
   .navigation__logo {
+    width: 90px;
     margin: 30px 18px 30px;
   }
 }
