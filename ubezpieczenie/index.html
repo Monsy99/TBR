@@ -17,99 +17,108 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navigation">
-      <a href="../home.html"
-        ><img class="navigation__logo" src="../images/logo.png" alt="logo"
-      /></a>
-      <div class="navigation__burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <div class="wrapper">
+      <nav class="navigation">
+        <a href="../home.html"
+          ><img class="navigation__logo" src="../images/logo.png" alt="logo"
+        /></a>
+        <div class="navigation__burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <section class="mobileMenu">
+        <ul class="mobileMenu__list">
+          <li class="mobileMenu__item">
+            <a class="mobileMenu__link" href="../home.html">Home</a>
+          </li>
+          <li class="mobileMenu__item">
+            <a class="mobileMenu__link" href="../ryzyko/index.html"
+              >Ryzyko<br />
+              w transporcie</a
+            >
+          </li>
+          <li class="mobileMenu__item mobileSelected">
+            <a class="mobileMenu__link" href="#"
+              >Ubezpieczenie <br />
+              CARGO</a
+            >
+          </li>
+          <li class="mobileMenu__item">
+            <a class="mobileMenu__link" href="../ubezpieczenie_spedytor/"
+              >Ubezpieczenie <br />
+              OC spedytora</a
+            >
+          </li>
+          <li class="mobileMenu__item">
+            <a class="mobileMenu__link" href="../ubezpieczenie_przewoznik/"
+              >Ubezpieczenie <br />
+              OC przewoźnika</a
+            >
+          </li>
+          <li class="mobileMenu__item">
+            <a class="mobileMenu__link" href="../kontakt/">Kontakt</a>
+          </li>
+        </ul>
+      </section>
+      <main class="content">
+        <div class="content__wrapper">
+          <h1 class="content__header">Ubezpieczenie <br />CARGO</h1>
+          <span class="content__group">
+            <p class="content__paragraph">
+              Ubezpieczenie mienia w transporcie (cargo) to najstarszy
+              historycznie rzecz ujmując i najlepszy instrument wymyślony do tej
+              pory przez ludzkość, służących zabezpieczeniu interesów
+              właściciela przesyłki na czas transportu. Dlaczego zatem warto
+              korzystać z ubezpieczenia cargo? <br />
+              <br />
+              Zgodnie z obowiązującymi przepisami, uczestnicy procesu
+              transportowego nie ponoszą odpowiedzialności za wszystkie
+              zdarzenia, które mogą mieć miejsce w czasie transportu – dlatego
+              też dochodzenie roszczeń od sprawcy szkody nie zawsze jest możliwe
+              na drodze prawnej. <br />
+              <br />
+              We wszystkich gałęziach transportu istnieją ograniczenia kwotowe
+              odszkodowania – odszkodowanie uzyskane od przewoźnika czy
+              spedytora nie zawsze pokryje w całości szkodę. <br />
+              <br />
+              Ubezpieczenie OC przewoźnika czy OC spedytora chroni przede
+              wszystkim interes przewoźnika / spedytora a nie interes
+              właściciela przesyłki
+            </p>
+            <img
+              class="content__vector"
+              src="./images/side_vector.svg"
+              alt=""
+            />
+          </span>
+        </div>
+      </main>
+      <div class="content__tile">
+        <p class="content__tile-paragraph">
+          <span class="content__mobile-disappear">
+            Wbrew pozorom zawarcie dobrego ubezpieczenia cargo nie jest proste –
+            wymaga nie tylko znajomości specyfiki transportu, ale również
+            umiejętnego skonstruowania umowy ubezpieczenia.
+            <br />
+            <br />
+          </span>
+          Jak zdefiniować szkodę? Co powinna obejmować suma ubezpieczenia? Jaki
+          zakres ubezpieczenia jest adekwatny do danego rodzaju przesyłki? Kiedy
+          ubezpieczenie powinno zaczynać się a kiedy kończyć? Chciałbyś wiedzieć
+          więcej? Masz problem z ubezpieczeniem cargo i potrzebujesz
+          konsultacji?
+        </p>
+        <a href="../kontakt/"
+          ><button class="content__button">Skontaktuj się z nami</button></a
+        >
       </div>
-    </nav>
-    <section class="mobileMenu">
-      <ul class="mobileMenu__list">
-        <li class="mobileMenu__item">
-          <a class="mobileMenu__link" href="../home.html">Home</a>
-        </li>
-        <li class="mobileMenu__item">
-          <a class="mobileMenu__link" href="../ryzyko/index.html"
-            >Ryzyko<br />
-            w transporcie</a
-          >
-        </li>
-        <li class="mobileMenu__item mobileSelected">
-          <a class="mobileMenu__link" href="#"
-            >Ubezpieczenie <br />
-            CARGO</a
-          >
-        </li>
-        <li class="mobileMenu__item">
-          <a class="mobileMenu__link" href="../ubezpieczenie_spedytor/"
-            >Ubezpieczenie <br />
-            OC spedytora</a
-          >
-        </li>
-        <li class="mobileMenu__item">
-          <a class="mobileMenu__link" href="../ubezpieczenie_przewoznik/"
-            >Ubezpieczenie <br />
-            OC przewoźnika</a
-          >
-        </li>
-        <li class="mobileMenu__item">
-          <a class="mobileMenu__link" href="../kontakt/">Kontakt</a>
-        </li>
-      </ul>
-    </section>
-    <main class="content">
-      <div class="content__wrapper">
-        <h1 class="content__header">Ubezpieczenie <br />CARGO</h1>
-        <span class="content__group">
-          <p class="content__paragraph">
-            Ubezpieczenie mienia w transporcie (cargo) to najstarszy
-            historycznie rzecz ujmując i najlepszy instrument wymyślony do tej
-            pory przez ludzkość, służących zabezpieczeniu interesów właściciela
-            przesyłki na czas transportu. Dlaczego zatem warto korzystać z
-            ubezpieczenia cargo? <br />
-            <br />
-            Zgodnie z obowiązującymi przepisami, uczestnicy procesu
-            transportowego nie ponoszą odpowiedzialności za wszystkie zdarzenia,
-            które mogą mieć miejsce w czasie transportu – dlatego też
-            dochodzenie roszczeń od sprawcy szkody nie zawsze jest możliwe na
-            drodze prawnej. <br />
-            <br />
-            We wszystkich gałęziach transportu istnieją ograniczenia kwotowe
-            odszkodowania – odszkodowanie uzyskane od przewoźnika czy spedytora
-            nie zawsze pokryje w całości szkodę. <br />
-            <br />
-            Ubezpieczenie OC przewoźnika czy OC spedytora chroni przede
-            wszystkim interes przewoźnika / spedytora a nie interes właściciela
-            przesyłki
-          </p>
-          <img class="content__vector" src="./images/side_vector.svg" alt="" />
-        </span>
-      </div>
-    </main>
-    <div class="content__tile">
-      <p class="content__tile-paragraph">
-        Wbrew pozorom zawarcie dobrego ubezpieczenia cargo nie jest proste –
-        wymaga nie tylko znajomości specyfiki transportu, ale również
-        umiejętnego skonstruowania umowy ubezpieczenia.
-        <br />
-        <br />
-        Jak zdefiniować szkodę? Co powinna obejmować suma ubezpieczenia? Jaki
-        zakres ubezpieczenia jest adekwatny do danego rodzaju przesyłki? Kiedy
-        ubezpieczenie powinno zaczynać się a kiedy kończyć? Chciałbyś wiedzieć
-        więcej? Masz problem z ubezpieczeniem cargo i potrzebujesz konsultacji?
-      </p>
-      <a href="../kontakt/"
-        ><button class="content__button">Skontaktuj się z nami</button></a
-      >
+      <footer class="footer">
+        <div class="separator"></div>
+        Transport Bez Ryzyka jest marką należącą do Alfa Strategy Sp. z o.o.
+      </footer>
     </div>
-    <footer class="footer">
-      <div class="separator"></div>
-      Transport Bez Ryzyka jest marką należącą do Alfa Strategy Sp. z o.o.
-    </footer>
   </body>
   <script src="../js/app.js"></script>
 </html>
