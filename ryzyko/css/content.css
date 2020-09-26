@@ -141,6 +141,7 @@
     margin: 0 auto;
     font-size: 34px;
     line-height: 48px;
+    letter-spacing: 1px;
   }
   .content__group {
     width: 90vw;
@@ -150,6 +151,6 @@
     color: white;
     font-size: 17px;
     line-height: 21px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
   }
 }
