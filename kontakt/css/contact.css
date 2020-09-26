@@ -1,9 +1,8 @@
 .contact {
-  position: absolute;
-  margin-top: 60px;
-  margin-left: 650px;
   display: flex;
   flex-direction: column;
+  flex-grow: 0;
+  margin-left: 300px;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
@@ -22,8 +21,6 @@
   border-radius: 5px;
   border: 1px solid #6e6e6e;
 }
-.contact__input::placeholder {
-}
 .contact__message {
   resize: vertical;
   height: unset;
@@ -36,7 +33,7 @@
   line-height: 29px;
   text-align: center;
   color: white;
-  margin: 47px;
+  margin: 40px auto;
   background: linear-gradient(336.15deg, #0053c0 -0.08%, #04b2e7 112.76%);
   border-radius: 72px;
 }
@@ -45,6 +42,34 @@
 }
 @media (max-width: 1450px) {
   .contact {
-    margin-left: 490px;
+    margin-left: 150px;
   }
-} ;
+}
+
+@media (max-width: 1240px) {
+  .contact {
+    position: relative;
+    width: 90%;
+    margin: 20px 0;
+  }
+  .contact__input {
+    width: 100%;
+  }
+  .contact__button {
+    padding: 13px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .contact {
+    padding: 10px;
+    width: 100%;
+  }
+  .contact__input {
+    font-size: 12px;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+  .contact__button {
+    margin: 30px auto;
+  }
+}
