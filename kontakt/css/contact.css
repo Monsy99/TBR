@@ -59,6 +59,11 @@
     padding: 13px 40px;
   }
 }
+@media (max-width: 1000px) {
+  .contact {
+    margin: 20px auto;
+  }
+}
 @media (max-width: 767px) {
   .contact {
     padding: 10px;
