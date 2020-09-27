@@ -3,7 +3,7 @@
   position: absolute;
   background-image: url("../images/vector_1-1700.svg");
   width: 1500px;
-  height: 1400px;
+  height: 1300px;
   top: 0;
   z-index: -1;
 }
@@ -90,7 +90,7 @@
     position: absolute;
     background-image: url("../images/vector_1.svg");
     width: 1350px;
-    height: 1100px;
+    height: 1140px;
   }
   .content__wrapper {
     margin-left: 150px;
