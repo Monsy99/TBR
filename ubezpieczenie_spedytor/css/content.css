@@ -1,10 +1,10 @@
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/vector_1-1700.svg");
+  background-image: url("../../images/vector_1-1700.svg");
   width: 1500px;
   height: 1300px;
-  top: 0;
+  top: -5px;
   z-index: -1;
 }
 .wrapper {
@@ -63,7 +63,7 @@
   line-height: 29px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #2870cf;
+  color: #0033A0;
 }
 .content__button {
   padding: 14px 37px;
@@ -88,9 +88,9 @@
   .content::before {
     content: "";
     position: absolute;
-    background-image: url("../images/vector_1.svg");
+    background-image: url("../../images/vector_1.svg");
     width: 1350px;
-    height: 1140px;
+    height: 1100px;
   }
   .content__wrapper {
     margin-left: 150px;
@@ -142,9 +142,6 @@
     font-size: 22px;
     padding: 10px 12px;
   }
-  .content::before {
-    top: -30px;
-  }
   .content__wrapper {
     width: 100vw;
     margin-left: 0px;
@@ -164,7 +161,7 @@
   .content__header {
     width: 90vw;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 45px;
     font-size: 34px;
     line-height: 48px;
     letter-spacing: 1px;
