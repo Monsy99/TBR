@@ -9,7 +9,7 @@
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/Vector_1-1700.svg");
+  background-image: url("../../images/vector_1-1700.svg");
   width: 1400px;
   height: 1520px;
   top: 0;
@@ -74,7 +74,7 @@
   font-size: 36px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: rgb(51, 126, 224);
+  color: #0033A0;
 }
 
 .content__tile-img {
@@ -85,7 +85,7 @@
   .content::before {
     content: "";
     position: absolute;
-    background-image: url("../images/Vector_1.svg");
+    background-image: url("../../images/vector_1.svg");
     top: -5px;
     width: 1350px;
     height: 1370px;
