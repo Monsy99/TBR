@@ -6,10 +6,10 @@
 .content::before {
   content: "";
   position: absolute;
-  background-image: url("../images/vector_1-1700.svg");
+  background-image: url("../../images/vector_1-1700.svg");
   width: 1500px;
   height: 990px;
-  top: 0;
+  top: -5px;
   left: 0;
   z-index: -1;
 }
@@ -78,14 +78,14 @@
   }
 }
 @media (max-width: 767px) {
+  .content::before {
+    top: -45px;
+  }
   .content__button {
     font-size: 22px;
     padding: 10px 12px;
   }
-  .content::before {
-    top: -55px;
-  }
-  + .content__header {
+ .content__header {
     margin-top: 50px;
     font-size: 34px;
     line-height: 48px;
