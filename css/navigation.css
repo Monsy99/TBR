@@ -6,10 +6,9 @@
 }
 
 .navigation__logo {
-  width: 110px;
+  width: 105px;
   margin: 20px 20px;
   cursor: pointer;
-  margin-bottom: 0px;
 }
 
 .navigation__burger {
@@ -97,8 +96,7 @@
     margin: 24px 24px;
   }
   .navigation__logo {
-    width: 100px;
+    width: 95px;
     margin: 30px 18px 30px;
-    margin-bottom: 0px;
   }
 }
