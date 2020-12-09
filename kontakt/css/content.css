@@ -27,6 +27,7 @@
   align-items: flex-start;
   flex-grow: 0;
   margin: 0;
+  animation: 1s ease-out 1 0s appearFromLeft;
 }
 .content__header {
   color: white;
@@ -85,7 +86,7 @@
     font-size: 22px;
     padding: 10px 12px;
   }
- .content__header {
+  .content__header {
     margin-top: 50px;
     font-size: 34px;
     line-height: 48px;
@@ -103,5 +104,26 @@
   }
   .content__vector {
     margin-left: -80px;
+  }
+}
+
+@keyframes appearFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes appearFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }

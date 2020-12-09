@@ -28,6 +28,7 @@
   line-height: 70px;
   text-align: center;
   letter-spacing: 1px;
+  animation: 1s ease-out 1 0s appearFromLeft;
 }
 
 .banner__paragraph {
@@ -42,6 +43,7 @@
   font-size: 23px;
   line-height: 29px;
   text-align: center;
+  animation: 1s ease-out 1 0s appearFromBottom;
 }
 
 .banner__container {
@@ -175,5 +177,26 @@
     padding: 0;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@keyframes appearFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes appearFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
