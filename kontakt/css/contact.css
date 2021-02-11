@@ -1,6 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
+  justify-content:center;
   flex-grow: 0;
   margin-right: 200px;
   padding: 20px;
